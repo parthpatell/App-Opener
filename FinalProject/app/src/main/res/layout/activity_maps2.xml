@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Place Name">
+    </EditText>
+        <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="33dp"
+        android:text="Search"
+            android:layout_margin="8dp"
+        android:layout_gravity="right"
+
+        android:background="@drawable/ripple_innerbuttons">
+
+    </Button>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        tools:context=".MapsActivity2" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ripple_innerbuttons"
+        android:text="Add Locations"
+        android:layout_gravity="right">
+
+    </Button>
+
+</LinearLayout>

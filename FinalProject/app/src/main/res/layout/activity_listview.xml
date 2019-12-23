@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:divider="@null"
+    android:dividerHeight="10dp">
+
+
+    <CheckBox
+        android:id="@+id/appBox"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="AppName" />
+
+    <Button
+        android:id="@+id/actionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ripple_innerbuttons"
+        android:text="none" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:background="@drawable/ripple_innerbuttons"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="none" />
+
+</LinearLayout>
